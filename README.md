@@ -2,13 +2,13 @@
 
 A machine learning project that predicts **engine and transmission ratings** of vehicles using structured automobile data and modern regression techniques.
 
----
+
 
 ## 📌 Problem Statement
 Vehicle ratings depend on multiple engine and transmission parameters.  
 This project builds a **data-driven ML system** to accurately predict these ratings and identify the best-performing regression model.
 
----
+
 
 ## 🧠 Approach
 - Cleaned and preprocessed structured automobile data  
@@ -16,7 +16,7 @@ This project builds a **data-driven ML system** to accurately predict these rati
 - Trained and compared multiple regression models  
 - Optimized the best model using hyperparameter tuning  
 
----
+
 
 ## ⚙️ Models Implemented
 - Linear Regression  
@@ -26,7 +26,7 @@ This project builds a **data-driven ML system** to accurately predict these rati
 - CatBoost  
 - LightGBM  
 
----
+
 
 ## 🏆 Best Model Performance
 **LightGBM Regressor** delivered the best results after tuning:
@@ -37,7 +37,7 @@ This project builds a **data-driven ML system** to accurately predict these rati
 | MAE | **0.321** |
 | R² Score | **0.74** |
 
----
+
 
 ## 🛠️ Tech Stack
 - **Language:** Python  
@@ -47,30 +47,30 @@ This project builds a **data-driven ML system** to accurately predict these rati
   - XGBoost, CatBoost, LightGBM  
   - Matplotlib / Seaborn  
 
----
+
 
 ## 📂 Project Structure
 📁 Engine-Rating-Prediction
 ├── engine_rating_prediction.ipynb
+
 └── README.md
 
 
 
----
 
 ## 📈 Key Highlights
 - End-to-end ML pipeline from preprocessing to evaluation  
 - Comparison of linear, tree-based, and boosting models  
 - Metric-driven model selection using RMSE, MAE, and R²  
 
----
+
 
 ## 🔮 Future Enhancements
 - Deploy model using **FastAPI**  
 - Add **SHAP** for explainability  
 - Build ensemble models for improved accuracy  
 
----
+
 
 ## 👤 Author
 **Yash Wardhan**  
