@@ -1,91 +1,78 @@
-# Engine-Rating-Prediction-Model
+# 🚗 Engine & Transmission Rating Prediction
 
-📌 Project Overview
+A machine learning project that predicts **engine and transmission ratings** of vehicles using structured automobile data and modern regression techniques.
 
-This project focuses on building a machine learning system to predict engine and transmission ratings of vehicles based on structured automobile specifications. The goal is to compare multiple regression models and identify the best-performing approach using proper evaluation metrics.
+---
 
-📊 Dataset
+## 📌 Problem Statement
+Vehicle ratings depend on multiple engine and transmission parameters.  
+This project builds a **data-driven ML system** to accurately predict these ratings and identify the best-performing regression model.
 
-Structured vehicle dataset containing engine, transmission, and performance-related features
+---
 
-Includes both numerical and categorical attributes
+## 🧠 Approach
+- Cleaned and preprocessed structured automobile data  
+- Performed feature engineering, encoding, and scaling  
+- Trained and compared multiple regression models  
+- Optimized the best model using hyperparameter tuning  
 
-Missing values and inconsistencies handled during preprocessing
+---
 
-⚙️ Methodology
+## ⚙️ Models Implemented
+- Linear Regression  
+- Support Vector Regression (SVR)  
+- Random Forest Regressor  
+- XGBoost  
+- CatBoost  
+- LightGBM  
 
-Performed data cleaning, feature engineering, encoding, and scaling
+---
 
-Trained and evaluated multiple regression models including:
+## 🏆 Best Model Performance
+**LightGBM Regressor** delivered the best results after tuning:
 
-Linear Regression
+| Metric | Value |
+|------|------|
+| RMSE | **0.429** |
+| MAE | **0.321** |
+| R² Score | **0.74** |
 
-Support Vector Regression (SVR)
+---
 
-Random Forest
+## 🛠️ Tech Stack
+- **Language:** Python  
+- **Libraries:**  
+  - NumPy, Pandas  
+  - Scikit-learn  
+  - XGBoost, CatBoost, LightGBM  
+  - Matplotlib / Seaborn  
 
-XGBoost
+---
 
-CatBoost
+## 📂 Project Structure
+📁 Engine-Rating-Prediction
+├── engine_rating_prediction.ipynb
+└── README.md
 
-LightGBM
 
-Used cross-validation and error-based metrics to compare model performance
 
-🏆 Best Model
+---
 
-LightGBM Regressor achieved the best performance after hyperparameter tuning
+## 📈 Key Highlights
+- End-to-end ML pipeline from preprocessing to evaluation  
+- Comparison of linear, tree-based, and boosting models  
+- Metric-driven model selection using RMSE, MAE, and R²  
 
-Evaluation Metrics:
+---
 
-RMSE: 0.429
+## 🔮 Future Enhancements
+- Deploy model using **FastAPI**  
+- Add **SHAP** for explainability  
+- Build ensemble models for improved accuracy  
 
-MAE: 0.321
+---
 
-R² Score: 0.74
+## 👤 Author
+**Yash Wardhan**  
+_Data Science & Machine Learning_
 
-🧪 Model Evaluation
-
-Models evaluated using:
-
-Root Mean Squared Error (RMSE)
-
-Mean Absolute Error (MAE)
-
-R² Score
-
-GridSearchCV used for hyperparameter optimization
-
-🚀 Tech Stack
-
-Programming Language: Python
-
-Libraries:
-
-NumPy, Pandas
-
-Scikit-learn
-
-XGBoost, CatBoost, LightGBM
-
-Matplotlib / Seaborn (for visualization)
-
-📁 Project Structure
-engine_rating_prediction.ipynb   # Main notebook with EDA, modeling & evaluation
-README.md                        # Project documentation
-
-✅ Key Learnings
-
-Practical comparison of tree-based and linear regression models
-
-Importance of feature preprocessing in structured ML problems
-
-Hands-on experience with gradient boosting frameworks
-
-🔮 Future Improvements
-
-Deploy the model using FastAPI
-
-Add SHAP-based model interpretability
-
-Experiment with ensemble averaging
