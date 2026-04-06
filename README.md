@@ -1,6 +1,6 @@
 # 🚗 Engine & Transmission Rating Prediction
 
-A machine learning project that predicts **engine and transmission ratings** of vehicles using structured automobile data and modern regression techniques.
+A machine learning project that predicts **engine and transmission ratings** of vehicles using structured automobile data and modern regression techniques .
 
 
 
